@@ -8,7 +8,7 @@
 
 | Version 	| Requirements               	|
 |---------	|----------------------------	|
-| 1.0.1    	| Shopware 6.4 >=	            |
+| 1.0.0    	| Shopware 6.4 >=	            |
 
 ## License
 
