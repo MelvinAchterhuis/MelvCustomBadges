@@ -1,0 +1,13 @@
+.product-custom-badges {
+    display: flex;
+    margin-bottom: 16px;
+    .badge {
+        padding: 0 8px;
+        height: 32px;
+        margin: 0 8px 0 0;
+        line-height: 32px;
+        border-radius: $border-radius;
+        border-color: transparent;
+        font-size: 18px;
+    }
+}

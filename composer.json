@@ -1,0 +1,33 @@
+{
+    "name": "melvinachterhuis/custom-badges-shopware6-plugin",
+    "description": "Custom badges in the listing and on the detail page",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melvin Achterhuis"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*",
+        "shopware/storefront": "6.4.*",
+        "shopware/administration": "6.4.*"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Melv\\CustomBadges\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Melv\\CustomBadges\\MelvCustomBadges",
+        "label": {
+            "de-DE": "Custom Badges",
+            "en-GB": "Custom Badges"
+        },
+        "description": {
+            "de-DE": "Zeigen Sie benutzerdefinierte badges auf der Auflistungs- und Detailseite an!!",
+            "en-GB": "Show custom badges on the listing and detail page!"
+        }
+    }
+}

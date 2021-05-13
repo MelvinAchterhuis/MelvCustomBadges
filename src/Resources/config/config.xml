@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Visibility settings</title>
+        <title lang="de-DE">Sichtbarkeitseinstellungen</title>
+
+        <input-field type="bool">
+            <name>activeListing</name>
+            <require>true</require>
+            <label>Listing</label>
+            <label lang="de-DE">Produktübersichtsseite</label>
+            <label lang="en-GB">Listing page</label>
+            <label lang="nl-NL">Productoverzichtpagina</label>
+            <defaulValue>false</defaulValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>activeDetail</name>
+            <require>true</require>
+            <label>Detail</label>
+            <label lang="de-DE">Produktdetailseite</label>
+            <label lang="en-GB">Product detail page</label>
+            <label lang="nl-NL">Productdetailpagina</label>
+            <defaulValue>false</defaulValue>
+        </input-field>
+
+    </card>
+
+    <card>
+        <title>Badge settings</title>
+        <title lang="de-DE">Badge einstellungen</title>
+
+        <input-field type="colorpicker">
+            <name>customBadgeTextColor</name>
+            <label>Text color</label>
+            <defaultValue>#FFFFFF</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>customBadgeColor1</name>
+            <label>Color Label 1</label>
+            <defaultValue>#000000</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>customBadgeColor2</name>
+            <label>Color Label 2</label>
+            <defaultValue>#000000</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>customBadgeColor3</name>
+            <label>Color Label 3</label>
+            <defaultValue>#000000</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>customBadgeColor4</name>
+            <label>Color Label 4</label>
+            <defaultValue>#000000</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>customBadgeColor5</name>
+            <label>Color Label 5</label>
+            <defaultValue>#000000</defaultValue>
+        </input-field>
+    </card>
+</config>

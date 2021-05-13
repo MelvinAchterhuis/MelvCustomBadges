@@ -1,0 +1,16 @@
+{% set customFields = product.translated.customFields ?: page.product.translated.customFields %}
+{% set badgeNumber = 0 %}
+
+{% if page.product %}<div class="product-custom-badges">{% endif %}
+    {% for badge in customFields|keys  %}
+        {% if badge starts with 'melv_custom_badges_text' %}
+            {% set badgeNumber = badgeNumber + 1  %}
+            <div>
+                <span class="badge badge-custom"
+                      style="background-color: {{ config('MelvCustomBadges.config.customBadgeColor' ~ badgeNumber ) }}; color: {{ config('MelvCustomBadges.config.customBadgeTextColor' ) }} ">
+                    {{ _context.customFields['melv_custom_badges_text' ~ badgeNumber] }}
+                </span>
+            </div>
+        {% endif %}
+    {% endfor %}
+{% if page.product %}</div>{% endif %}

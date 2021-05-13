@@ -1,0 +1,8 @@
+{% sw_extends '@Storefront/storefront/component/product/card/badges.html.twig' %}
+
+{% block component_product_badges_new %}
+    {{ parent() }}
+    {% if config('MelvCustomBadges.config.activeListing') %}
+        {% sw_include '@MelvCustomBadges/plugin/melv-custom-badges.html.twig' %}
+    {% endif %}
+{% endblock %}
