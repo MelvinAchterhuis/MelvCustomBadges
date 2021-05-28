@@ -1,5 +1,7 @@
 ## A plugin for [Shopware 6](https://github.com/shopware/platform)
 
+Add custom badges on the listing and detail page
+
 ![](https://i.imgur.com/EJcRTbo.png)
 
 ![](https://i.imgur.com/3aNdAAG.png)
